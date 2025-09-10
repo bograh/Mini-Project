@@ -22,7 +22,7 @@ def create_app():
 
     # CORS(app)
     # CORS(app, resources={r"*": {"origins": ["*"]}})
-		CORS(app, origins=["https://studypaddies.vercel.app"])
+    CORS(app, origins=["https://studypaddies.vercel.app"])
 
     with app.app_context():
         from models.models import (
