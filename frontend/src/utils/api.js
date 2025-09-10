@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = "https://mini-project-production-5a57.up.railway.app";
+const API_BASE_URL = "http://127.0.0.1:5000";
 
 export const api = {
     // User registration

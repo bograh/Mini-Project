@@ -154,7 +154,7 @@ function ChatArea({ groupName, error }) {
   const [uploadStatus, setUploadStatus] = useState('');
   const [socketError, setSocketError] = useState('');
   const socketRef = useRef();
-  const SOCKET_URL = "https://mini-project-production-5a57.up.railway.app";
+  const SOCKET_URL = "http://127.0.0.1:5000";
 
   const fetchMessages = async () => {
     try {
