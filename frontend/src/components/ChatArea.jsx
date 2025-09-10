@@ -154,7 +154,7 @@ function ChatArea({ groupName, error }) {
   const [uploadStatus, setUploadStatus] = useState('');
   const [socketError, setSocketError] = useState('');
   const socketRef = useRef();
-  const SOCKET_URL = "http://127.0.0.1:5000";
+  const SOCKET_URL = "https://studypaddiesapi.up.railway.app";
 
   const fetchMessages = async () => {
     try {
